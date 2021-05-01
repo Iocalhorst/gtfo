@@ -1,0 +1,97 @@
+
+
+
+
+	class frage
+	
+		metadaten
+	
+			uid
+			author
+			date_creation
+			date_modified
+			beschreibung
+			type
+			tags
+			rating
+			statistics
+
+
+		content
+
+			arbeitsanweisung
+			erläuterung
+
+			antworten_optionen
+		
+
+			text_begründung
+
+
+
+
+classe statements
+
+	metadaten
+
+	statistics
+	
+	feedback
+		
+		positive_feedbacks
+
+		negative_feedbacks
+
+		comment
+
+	rating
+
+
+		complexity=[1-10]  # eigentlich müsste hier mit prädikatenlogik metascheissarbeiten
+		
+		level_difficulty (grips_needed_to_solve)
+
+		time_frame
+
+
+	quality
+
+		ist das statement inhalt korrekt
+
+		darstellungeffizenz
+
+		angemessen
+
+
+	hintergrunderklaerung
+
+	is_true
+
+
+
+
+	tag
+		metadaten
+		content
+			name
+		statistics
+
+
+
+
+
+
+
+		themenbereich[Netzwercktechnik,Projektmanagment]
+
+		statistics=[Correct_answers,falsche_antworten,Anzahl_aufrufe,anzahl_antworten,durchschnittliche_anwortzeit]
+		ratings=[defaultlevel,quality]
+		text_instruction
+		options=
+			richtige_antworten=text,uid
+			falsche_antwort=text,uid,statistics,bewertung
+
+
+
+	class meta
+	class statistics

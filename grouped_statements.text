@@ -1,0 +1,47 @@
+
+Frage 1 (Tags : IP, NAT, DHCP, ARP, VPN, IPv4, ICMP) :
+
+Markieren sich die zutreffende aussage :
+
+
+b) Damit ein Paket von einer IPv4 adresse an einen Host mit IPv6 adresse gelangen kann benötigt man einen NAT-Router.
+
+c) Um eine verschlüsselte Verbindung zu einem Server herzustellen benötige ich einen VPN-Dienst.
+
+d) Um die Latenzzeit einer IP-Verbindung zu ermitteln wird ein ICMP-paket vom Typ 8 versendet. Der darin enthaltene Parameter TTL gibt die verstrichene Zeit in ms an die das Paket vom Absender zum Zielhost benötigt hat.
+
+e) IP unterscheidet zwischen öffentlichem und nicht öffentlichem Adressraum. Pakete von dem einen in den anderen Adressraum werden nicht weitergeleitet sofern es dafür keinen Eintrag in der ARP-Tabelle des Routers gibt.
+
+g) Um die IP Adresse eines Webserver zu ermitteln muss eine Anfrage an seinen DHCP-Client stellen.
+
+
+
+
+Frage 2: (Tags OSI, Switch, MAC, CAT, Duplex)
+
+a) Ein Switch kann sowohl mit Layer 3 als auch mit Layer 2 Geräten verbunden werden. Daher spricht Duplex-Kommunikation. 
+
+
+
+
+
+
+Frage 3: (Binär, Hex, Bit, )
+
+
+Zahlenwerte sind mathematisch unabhängig von ihrer Darstellung zu betrachten. Der Hexadezimalwert (D5), der Binärausdruck (11010101) und der Decimalwert(213) sind daher equivalent.
+
+
+Eine 16-Stellige Zahl nennt man auch Hexadecimalzahl.
+
+
+Den Wert eine Hexadecimalzahl zu verdoppeln entspricht dem 4-maligen linksverschieben ihres Binärausdrucks.
+
+
+Eine Addition zweier Binärzahlen wird über den "and" operator durchgeführt.
+
+
+
+
+
+
