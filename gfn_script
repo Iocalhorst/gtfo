@@ -1,0 +1,49 @@
+import re
+import requests
+import os
+
+username=""
+passwort=""
+
+moodledomain="https://lernplattform.gfn.de"
+loginpath="/login/index.php"
+moodlesssion=""
+sesskey=""
+payload=""
+
+
+def main():
+#	proxies = {"http":"http://127.0.0.1:8080","https":"https://127.0.0.1:8080"}
+	mysession=requests.session()
+	r1=mysession.get(url=moodledomain+loginpath)
+	haystack=r1.text
+	#sesskey=re.search(r'"sesskey":"([^"]+)"',haystack).group(1)
+	#haystack=(requests.get(loginurl)).text
+	regex='"logintoken" value = "([^"]+)"'
+	logintoken=re.search(regex,haystack).group(1)
+	print("token found! : ",logintoken, "len:",len(logintoken))
+#	mk=response.cookies['MoodleSession']
+#	print(mk)
+#	cookies={'EU_COOKIE_LAW_CONSENT':'true','MoodleSession':mk}
+	data={'anchor':'','logintoken':logintoken,'username':username,'password':passwort}
+	headers={'Content-Type': 'application/x-www-form-urlencoded'}
+	r2=mysession.post(url=moodledomain+loginpath, data = data)
+	
+	regex="Ungültige Anmeldedaten. Versuchen Sie es noch einmal!"
+	haystack=r2.text
+
+	fail_string=re.search(regex,haystack)
+	if fail_string== None : 
+		print("Login Successful")
+		logged_in=True
+	else : 
+		print("Login failed")
+
+	#if logged_in==True:
+	#	regex="Achtung bitte Zeiterfassung starten"
+	#	timerecord_status=re.search(regex,haystack).group
+	#	if timerecord_status != None:
+	#		print('Zeiterfassung : aus')
+	r3=mysession.get(moodledomain,params={"stoppen":1})
+	print(r3.text)
+	
