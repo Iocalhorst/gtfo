@@ -23,4 +23,6 @@ Einmal random Fragen um sich dem Sicherheitsthema anzunähern.
 21. Was ist Exploit-Chaining?
 22. Was ist "Eternal Blue"
 23. Was ist "Hearbleed"
+24. Was ist eine Hashfunktion?
+25. Was ist eine Cryptographische Signatur?
 
