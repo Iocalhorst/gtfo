@@ -1,22 +1,23 @@
 Einmal random Fragen um sich dem Sicherheitsthema anzunähern.
 
 1. Was ist "least privilege policy"?
-2. Was ist asymmetrische Verschlüsselung?
-3. Was ist security by obscurity?
-4. Was ist social engineering?
-5. Was ist lateral movement?
-6. Was ist fingerprinting?
-7. was ist ein angriffsvektor?
-8. Was ist ein Bug?
-9. Was ist eine Sicherheitslücke/CVE?
-10. Was ist ein Exploit?
-11. Was ist ein 0-Day-Exploit?
-12. Was ist Mitigation?
-13. Was ist ein Buffer Overflow?
-14. Was ist ASLR?
-15. Was ist Full Disclosure?
-16. Was ist Responsible Disclosure?
-17. Was Cross-Site-Scripting?
-18. Was ist SQL-Injection?
-19. Was ist RCE?
-20. Was ist Exploit-Chaining?
+3. Was bedeutend "Integrität, Authentizität und Vertraulichkeit" im Sinne eines formulierten Schutzziels
+4. Was ist asymmetrische Verschlüsselung?
+5. Was ist security by obscurity?
+6. Was ist social engineering?
+7. Was ist lateral movement?
+8. Was ist fingerprinting?
+9. was ist ein angriffsvektor?
+10. Was ist ein Bug?
+11. Was ist eine Sicherheitslücke/CVE?
+12. Was ist ein Exploit?
+13. Was ist ein 0-Day-Exploit?
+14. Was ist Mitigation?
+15. Was ist ein Buffer Overflow?
+16. Was ist ASLR?
+17. Was ist Full Disclosure?
+18. Was ist Responsible Disclosure?
+19. Was Cross-Site-Scripting?
+10. Was ist SQL-Injection?
+20. Was ist RCE?
+21. Was ist Exploit-Chaining?
