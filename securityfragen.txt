@@ -1,0 +1,9 @@
+Was ist "least privilege policy"?
+Was ist asymmetrische Verschlüsselung?
+Was ist security by obscurity?
+Was ist social engineering?
+Was ist lateral movement?
+Was ist fingerprinting?
+was ist ein angriffsvektor?
+Was ist eine Sicherheitslücke/CVE?
+Was ist ein Exploit?
