@@ -21,3 +21,5 @@ Einmal random Fragen um sich dem Sicherheitsthema anzunähern.
 10. Was ist SQL-Injection?
 20. Was ist RCE?
 21. Was ist Exploit-Chaining?
+22. Was ist "Eternal Blue"
+23. Was ist "Hearbleed"
