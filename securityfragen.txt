@@ -8,7 +8,7 @@ Einmal random Fragen um sich dem Sicherheitsthema anzunähern.
 7. Was ist lateral movement?
 8. Was ist fingerprinting?
 9. was ist ein angriffsvektor?
-10. Was ist ein Bug?
+10. Was ist ein Bug? Was ist ein Bugbounty?
 11. Was ist eine Sicherheitslücke/CVE?
 12. Was ist ein Exploit?
 13. Was ist ein 0-Day-Exploit?
