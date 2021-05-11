@@ -1,9 +1,22 @@
-Was ist "least privilege policy"?
-Was ist asymmetrische Verschlüsselung?
-Was ist security by obscurity?
-Was ist social engineering?
-Was ist lateral movement?
-Was ist fingerprinting?
-was ist ein angriffsvektor?
-Was ist eine Sicherheitslücke/CVE?
-Was ist ein Exploit?
+Einmal random Fragen um sich dem Sicherheitsthema anzunähern.
+
+1. Was ist "least privilege policy"?
+2. Was ist asymmetrische Verschlüsselung?
+3. Was ist security by obscurity?
+4. Was ist social engineering?
+5. Was ist lateral movement?
+6. Was ist fingerprinting?
+7. was ist ein angriffsvektor?
+8. Was ist ein Bug?
+9. Was ist eine Sicherheitslücke/CVE?
+10. Was ist ein Exploit?
+11. Was ist ein 0-Day-Exploit?
+12. Was ist Mitigation?
+13. Was ist ein Buffer Overflow?
+14. Was ist ASLR?
+15. Was ist Full Disclosure?
+16. Was ist Responsible Disclosure?
+17. Was Cross-Site-Scripting?
+18. Was ist SQL-Injection?
+19. Was ist RCE?
+20. Was ist Exploit-Chaining?
