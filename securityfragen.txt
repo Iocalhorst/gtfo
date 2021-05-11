@@ -29,3 +29,5 @@ Einmal random Fragen um sich dem Sicherheitsthema anzunähern.
 28. Was ist "Input"-Sanitization?
 29. Was ist Fuzzing?
 30. Was ist sandboxing?
+31. Was ist eine wormable Vulnarability?
+32. Was ist symmetrische Verschlüsselung?
