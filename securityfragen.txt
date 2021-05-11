@@ -28,4 +28,4 @@ Einmal random Fragen um sich dem Sicherheitsthema anzunähern.
 26. Was ist "User-Input-Validation"?
 28. Was ist "Input"-Sanitization?
 29. Was ist Fuzzing?
-
+30. Was ist sandboxing?
