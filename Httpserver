@@ -1,0 +1,34 @@
+import cherrypy
+
+songs = {
+    '1': {
+        'title': 'Lumberjack Song',
+        'artist': 'Canadian Guard Choir'
+    },
+
+    '2': {
+        'title': 'Always Look On the Bright Side of Life',
+        'artist': 'Eric Idle'
+    },
+
+    '3': {
+        'title': 'Spam Spam Spam',
+        'artist': 'Monty Python'
+    }
+}
+
+class Songs:
+
+    exposed = True
+
+if __name__ == '__main__':
+
+    cherrypy.tree.mount(
+        Songs(), '/api/songs',
+        {'/':
+            {'request.dispatch': cherrypy.dispatch.MethodDispatcher()}
+        }
+    )
+
+    cherrypy.engine.start()
+    cherrypy.engine.block()

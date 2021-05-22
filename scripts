@@ -1,0 +1,25 @@
+login für VM:
+#nosuchuser@nosuchhost/1235
+
+
+#sudo apt update
+#sudo apt install python3-pip
+#sudo pip3 install cherrypy
+#sudo pip3 install mysqlclient
+
+shellcommando für simplehttpserver:
+	python3 -m http.server
+
+apache default page location : /var/www/html/index.html
+
+#datentypen in python
+string_="foo"
+ganzzahl=42
+kommazahl=4.222
+boolean_=True or False
+
+#listen gibts verschiedene
+einfach_=[1,2,3,4]
+tupel_={1,2,3,4}
+dictionary_={"name":"klaus"}
+set_={var1,var2,var3}
