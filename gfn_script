@@ -20,6 +20,9 @@ def main():
 	#sesskey=re.search(r'"sesskey":"([^"]+)"',haystack).group(1)
 	#haystack=(requests.get(loginurl)).text
 	regex='"logintoken" value = "([^"]+)"'
+
+Diese Kenntnis wurde noch nicht bestätigt.
+
 	logintoken=re.search(regex,haystack).group(1)
 	print("token found! : ",logintoken, "len:",len(logintoken))
 #	mk=response.cookies['MoodleSession']
@@ -34,6 +37,9 @@ def main():
 
 	fail_string=re.search(regex,haystack)
 	if fail_string== None : 
+
+Diese Kenntnis wurde noch nicht bestätigt.
+
 		print("Login Successful")
 		logged_in=True
 	else : 
@@ -45,5 +51,7 @@ def main():
 	#	if timerecord_status != None:
 	#		print('Zeiterfassung : aus')
 	r3=mysession.get(moodledomain,params={"stoppen":1})
+
+main()
 	print(r3.text)
 	
