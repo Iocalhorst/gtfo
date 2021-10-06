@@ -38,7 +38,7 @@ def main():
 	fail_string=re.search(regex,haystack)
 	if fail_string== None : 
 
-Diese Kenntnis wurde noch nicht bestätigt.
+#Diese Kenntnis wurde noch nicht bestätigt.
 
 		print("Login Successful")
 		logged_in=True
