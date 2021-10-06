@@ -21,7 +21,7 @@ def main():
 	#haystack=(requests.get(loginurl)).text
 	regex='"logintoken" value = "([^"]+)"'
 
-Diese Kenntnis wurde noch nicht bestätigt.
+# Diese Kenntnis wurde noch nicht bestätigt.
 
 	logintoken=re.search(regex,haystack).group(1)
 	print("token found! : ",logintoken, "len:",len(logintoken))
