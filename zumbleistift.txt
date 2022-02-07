@@ -1,0 +1,11 @@
+ich versuche die die Beziehung der Design-Patterns und Functional interfaces herauszukratzen. Ich seh die interfaces sowohl als anwendung als auch als implementation dieser.
+(aber das ist noch nicht ... serienreif)
+
+supplier : pimzahlgenerator, random numbers, uuids, keygen
+
+consumer : reset to defaultbatching. massenincrementor. prüffsummen. normalierungsfunktionen. mypersistenobject.commit()
+
+unary : skalarprodukte. formatter. logger
+
+bifunctional : logger. matrizenmultiplikation (lol). substitutionscypher. ("lol","wtf")=("omg"). 
+               Nachnamen verketten "wie aufm Standesamt";
